@@ -46,12 +46,12 @@ test('printUserInfo should return a formatted string', () => {
     `)
 })
 
-test.skip('getSum should return the sum of inputs', () => {
+test('getSum should return the sum of inputs', () => {
   expect(getSum(1, 2, 3)).toBe(6)
   expect(getSum(1, 2, 3, 4, 5)).toBe(15)
 })
 
-test.skip('getFirstTwoArgs returns the first two arguments as an array', () => {
+test('getFirstTwoArgs returns the first two arguments as an array', () => {
   expect(getFirstTwoArgs(1, 2, 3, 4, 5)).toStrictEqual([1, 2, [3, 4, 5]])
   expect(getFirstTwoArgs('a', 'b', 'c', 'd')).toStrictEqual(['a', 'b', ['c', 'd']])
 })
