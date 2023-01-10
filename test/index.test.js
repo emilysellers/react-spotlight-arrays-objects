@@ -15,7 +15,7 @@ test('getName should return the name attribute from an object', () => {
   expect(getName({ name: 'Benny' })).toBe('Benny')
 })
 
-test.skip('printAddress should return a formatted string', () => {
+test('printAddress should return a formatted string', () => {
   const input = {
     name: 'Bob Smith',
     address: { street: 'Main Street', number: 123, city: 'Anytown', country: 'USA' },
